@@ -44,4 +44,5 @@ class Main:
             raise ValueError("Invalid command")
 
 if __name__ == '__main__':
-    main()
+    getMain = Main()
+    getMain.main()
